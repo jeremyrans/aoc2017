@@ -8,7 +8,6 @@ def part1(steps):
         buffer.insert(pos + 1, i)
         pos += 1
 
-    print buffer
     return buffer[pos+1]
 
 
