@@ -17,7 +17,7 @@ def next_b(b):
     return b
 
 
-def part1(a, b):
+def part2(a, b):
     match_count = 0
 
     for i in xrange(5000000):
@@ -32,4 +32,4 @@ def part1(a, b):
 
     return match_count
 
-print part1(634, 301)
+print part2(634, 301)
